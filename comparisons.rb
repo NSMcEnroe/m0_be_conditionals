@@ -61,21 +61,24 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+# This ruby statement is evaluating if the integer 4 is less than the integer 9.  Since this is the case, the puts command (which displays the output) will print true.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This ruby statement is evaluating if the variable books is greater than integer 4 (or integer 4 is less than the integer value of books.)  The variable books is defined by the integer 4.  Therefore, since the books variable is not greeater than 4, the puts command output will be false.  
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This ruby statement is evaluating if the variable friends is greater than the variable siblings.  The variable friends is defined by the integer 6, and the variable siblings is defined by the integer 2.  Since 6 is greater than 2, the puts command output will be true.  
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# This ruby statement is evaluating if the variable attendees is not equal to the variable meals.  The variable attendees is defined by the integer 9, and the variable meals is defined by the integer 8.  Since 8 is not equal to 9, the puts command output will be true.  
 
 #-------------------
 # PART 3: Logical Operators
